@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:padding="8dp"
+    android:id="@+id/custom_list_rel_layout">
+    
+    <!-- Business Logo  -->
+  <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="6dp"
+        android:paddingTop="5dp"/>
+    
+    <!-- Business Name -->
+    <TextView
+        android:id="@+id/business_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_marginLeft="3dp"
+        android:textSize="@dimen/name"
+        android:textStyle="bold" 
+        android:padding="3dp"
+        android:text="NAME"
+        android:scrollHorizontally="false"
+        android:singleLine="false"/>
+    
+    <!-- Business Status -->
+   
+    
+    <!-- Distance -->
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@+id/business_name"
+        android:textSize="@dimen/distance"
+        android:padding="3dp"
+        android:text="DISTANCE" />
+    
+    <!-- Catagory -->
+    <TextView
+        android:id="@+id/business_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_below="@+id/distance"
+        android:textSize="@dimen/distance"
+        android:padding="3dp" 
+        android:text="CATAGORY"/>
+
+    <ImageView
+        android:id="@+id/arrow_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/distance"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/business_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/arrow_img"
+        android:layout_alignTop="@+id/business_name"
+        android:padding="3dp"
+        android:text="STATUS"
+        android:textSize="@dimen/status"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+         
+    <dimen name="phonenumber">16dp</dimen>
+    <dimen name="address">16dip</dimen>
+    <dimen name="storeid">12dp</dimen>
+    <dimen name="name">22dp</dimen>
+    <dimen name="city">15dp</dimen>
+    <dimen name="state">14dp</dimen>
+    <dimen name="info_display_address">17dp</dimen>
+    <dimen name="zipcode">17dp</dimen>
+    <dimen name="info_display_phonenumber">14dp</dimen>
+    <dimen name="latitude">14dp</dimen>
+    <dimen name="longitude">14dp</dimen>
+    <dimen name="status">12dp</dimen>
+    <dimen name="distance">10dp</dimen>
+ 
+</resources>

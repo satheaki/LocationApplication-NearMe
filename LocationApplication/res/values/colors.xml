@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 
+    <color name="phonenumber">#000000</color>
+    <color name="address">#9E9E9E</color>
+    <color name="list_divider">#000000</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#E0F7FA</color>
+    <color name="list_row_hover_end_color">#B2EBF2</color>
+   
+ 
+</resources>
